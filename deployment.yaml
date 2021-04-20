@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mynginx
 spec:
-  replicas: 2         # <-- 기존 1에서 2로 수정
+  replicas: 1
   selector:
     matchLabels:
       run: mynginx
